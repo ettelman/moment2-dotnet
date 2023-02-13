@@ -18,6 +18,7 @@ namespace moment2.Controllers
         [Route("/dogs")]
          public IActionResult Dogs()
         {
+            // Hämtar listan från json-filen och skickar den till Viewen
             var jsonStr = System.IO.File.ReadAllText("dogs.json");
             var jsonObj = JsonConvert.DeserializeObject<List<Dogs>>(jsonStr);
             return View(jsonObj);
