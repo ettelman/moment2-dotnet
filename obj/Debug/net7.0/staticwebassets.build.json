@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "uV5b1sbg23/yGfvh5pQ5imTUimelliLycfeUSoYVnwE=",
+  "Source": "moment2",
+  "BasePath": "_content/moment2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "moment2\\wwwroot",
+      "Source": "moment2",
+      "ContentRoot": "D:\\xampp\\htdocs\\Cdotnet\\moment2\\wwwroot\\",
+      "BasePath": "_content/moment2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\xampp\\htdocs\\Cdotnet\\moment2\\wwwroot\\css\\style.css",
+      "SourceId": "moment2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\xampp\\htdocs\\Cdotnet\\moment2\\wwwroot\\",
+      "BasePath": "_content/moment2",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "D:\\xampp\\htdocs\\Cdotnet\\moment2\\wwwroot\\index.html",
+      "SourceId": "moment2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\xampp\\htdocs\\Cdotnet\\moment2\\wwwroot\\",
+      "BasePath": "_content/moment2",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

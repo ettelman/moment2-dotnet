@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "Hund tillagd";
+}
+<div class="main">
+    <h2>Hund tillagd</h2>
+    <h3>Nuvarande lista:</h3>
+    <table>
+     @foreach(var dog in ViewBag.alldogs) {
+        <tr>
+            <th> @dog.Name </th>
+            <th> @dog.Breed </th>
+            <th> @dog.Age </th>
+        </tr>
+    }
+    </table>
+</div>

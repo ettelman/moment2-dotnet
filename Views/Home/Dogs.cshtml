@@ -1,0 +1,24 @@
+@model List<moment2.Models.Dogs>
+@{
+    ViewData["Title"] = "Hundar";
+    var Dogs = Model;
+}
+<div class="main">
+    <p>Här finns det hundar</p>
+    <table>
+        <tr>
+            <th>Namn</th>
+            <th>Ras</th>
+            <th>Ålder</th>
+        </tr>
+        
+    @foreach(var dog in Dogs) {
+        <tr>
+            <th> @dog.Name </th>
+            <th> @dog.Breed </th>
+            <th> @dog.Age </th>
+        </tr>
+    }
+    </table>
+
+</div>

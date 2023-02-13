@@ -1,0 +1,52 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+}
+.wrapper {
+    max-width: 1200px;
+    background-color: white;
+    margin:auto;
+    margin-top: 10%;
+    border: 1px dashed black;
+}
+.logo {
+    color:brown;
+    padding: 1rem;
+}
+nav ul {
+    list-style: none;
+    margin-left: 3rem;
+}
+nav li {
+display: inline-block;
+margin-right: 1rem;
+background-color: brown;
+padding: 0.4rem;
+color: white;
+margin-top: 1.5rem;
+}
+nav li:hover {
+    background-color: black;
+}
+.top-grid {
+    display: flex;
+}
+.main {
+    margin: 1rem;
+}
+ tr, th {
+    border: 1px solid black;
+    padding: 1rem;
+}
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+label {
+    width: 70px;
+    display: inline-block;
+}
+input[type="submit"] {
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+}

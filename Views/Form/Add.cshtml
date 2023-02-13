@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Lägg till hund";
+}
+<div class="main">
+    <h2>Lägg till en hund:</h2>
+    <form action="Add" method="post">
+        <label for="name">Namn:</label>
+        <input type="text" name="name" id="name"> <br />
+        <label for="breed">Ras:</label>
+        <input type="text" name="breed" id="breed"><br />
+        <label for="age">Ålder:</label>
+        <input type="number" name="age" id="age"><br />
+        <input type="submit" value="Skicka">
+    </form>
+    <table>
+     @foreach(var dog in ViewBag.test) {
+        <tr>
+            <th> @dog.Name </th>
+            <th> @dog.Breed </th>
+            <th> @dog.Age </th>
+        </tr>
+    }
+    </table>
+</div>
